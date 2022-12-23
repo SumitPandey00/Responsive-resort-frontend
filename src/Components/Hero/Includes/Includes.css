@@ -1,0 +1,120 @@
+/* *{
+    box-sizing: border-box;
+    background: rgb(0 100 0/0.1 ) !important ;
+} */
+
+section{
+    background-color:  #f6f6f6;
+    padding: 7% 7%;
+}
+.section--all{
+    display: flex;
+    flex-direction: row;
+}
+.section--des{
+    margin-bottom: 5%;
+}
+.section--des h1{
+    margin-bottom: .31%;
+    font-size: xx-large;
+}
+.section--des span{
+    color:red;
+}
+.section--des p{
+    color: #898989;
+    text-align: justify;
+    font-style:italic ;
+    font-size:18px ;
+}
+.we--have{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section--con{
+    background-color: white;
+    padding: .5% .4% 0.2% 1%;
+    margin: 2% 0%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;;
+}
+.section--con h2{
+    color: red;
+    margin-bottom: 2px;
+}
+.section--con p{
+    color: grey;
+}
+.section--con button{
+    background-color: black;
+    color: white;
+    padding: .3% .5%;
+    margin:.6% 0% 0%;
+    transition: background-color .5s, color .5s;
+    cursor:pointer;
+    border: 1.5px black solid;
+}
+.section--con button:hover{
+    background-color: white;
+    color:black;
+}
+.section--img{
+    width: 550px;
+    margin-left: 4%;
+}
+.imgpool{
+    height: 500px;
+}
+@media (max-width:800px) {
+    .section--des h1{
+        font-size: 4vh;
+    } 
+    .section--des p{
+        font-size: 2.3vh;
+        margin-bottom:2% ;
+    }
+    .section--con h2{
+        font-size: 2.9vh;
+    }
+    .section--con p{
+        font-size: 1.7vh;
+    }
+    .section--con button{
+        font-size:1.6vh;
+    }
+    .button1{
+        margin-left: 75%;
+        
+    }
+
+    .section--des p{
+        font-size: 1.99vh;
+    }
+}
+@media (max-width:1200px) {
+    .we--have{
+        display: block;
+    }
+    .section--img{
+        width: 100%;
+        margin-left: 0;
+
+    }
+    .imgpool{
+        height: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

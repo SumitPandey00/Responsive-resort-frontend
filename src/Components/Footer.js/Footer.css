@@ -1,0 +1,111 @@
+Footer{
+    height: fit-content;
+}
+
+.Logo--all{
+    background-color: rgb(18, 139, 48);
+    display: flex;
+    height: 80px;
+    flex-direction: column;
+    text-align: center;
+}   
+.Logo--all h2{
+    margin: .5% 0%;
+    background-color: green;
+}
+.Logo--all h2 span{
+    color:red;
+}
+.Logo{
+    margin-right: 3%;
+    margin-top: 1.3%;
+}
+.Logo a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 6%;
+}
+.Logo a:hover{
+    color: aqua;
+}
+
+.link--all{
+    background-color: rgb(37, 150, 37);
+    display: flex;
+    padding-top: 4%;
+    justify-content: space-between;    
+}
+.link--contact{
+    margin-left: 10%;
+
+}
+.link--contact h4{
+margin-left: 10px;
+margin-top: 5%;
+}
+.link--contact a{
+    color: #fff;
+    text-decoration: none;
+}
+.link--contact h4 a:hover{
+    color: aqua;
+}
+.link-set-one{
+    margin-left: 15%;
+    
+}
+.link-set-one li{
+    list-style:none;
+    margin-bottom: 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+.link-set-one li a{
+    text-decoration: none;
+    color: #fff;
+}
+.link-set-one li a:hover{
+    color: aqua;
+
+}
+.link-set-two{
+    margin-right: 15%;
+} 
+.link-set-two li{
+    list-style:none;
+    margin-bottom: 6%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+.link-set-two li a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+.link-set-two li a:hover{
+    color: aqua;
+
+}
+@media (max-width:850px) {
+    .link--all{
+        flex-direction: column;
+        height: fit-content;
+        text-align: center;
+        margin: 0px;
+
+    }
+    .Logo--all h2{
+        font-size: 3vh;
+    }
+    .link--contact,.link-set-one,.link-set-two{
+        margin: 0px;
+        font-size: 2vh;
+    }
+    .link-set-one li,.link-set-two li{
+        margin-bottom:3.5%;
+        font-size: 2vh;
+    }
+    .link--contact{
+        margin-bottom: 3.5%;
+    }
+}

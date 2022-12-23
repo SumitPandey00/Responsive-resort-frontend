@@ -1,0 +1,202 @@
+ /* *{
+
+/* background: rgba(93, 153, 78, 0.2); */
+
+nav{
+    display: flex;
+
+}
+nav img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.upperNav{
+    display: flex;
+    position:fixed;
+    width: 100%;
+    height: 16%;
+    z-index: 3;
+    box-shadow:1px 2px 4px gray ;
+    background-color: rgba(2, 2, 2, 0.2);
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.upperNav h3{
+    margin-left: 50%;
+    
+}
+.upperNav h3 a{
+    text-decoration: none;
+    color: white;
+    border:2px solid white;
+    padding: 2.5vh;   
+}
+.upperNav h3 a:hover{
+    color:coral;
+    border-color:coral;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 10%;
+}
+.menu ul{
+    display: flex;
+}
+.menu ul li{
+    margin-right: 2vh;
+    list-style: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: white;    
+}
+.menu ul li a:hover{
+    color: coral;
+}
+.button{
+    display: flex;
+    color: white;
+}
+.button a{
+    display: flex;
+    margin-left: 2vh;
+    text-decoration: none;
+    color: white;
+}
+
+
+.Stay{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 25%;
+    position:absolute;
+    overflow: hidden;    
+
+}
+.Stay h1{
+    font-size:800%;
+    margin-bottom: 1%;
+    text-align: center;
+    color:white;
+    margin-bottom: 1.3vh;
+}
+.Stay form{
+    display: flex;
+    justify-content: center;
+}
+.Stay form input{
+    font-size: large;
+    font-weight: bolder;
+    height: 5vh;
+    opacity: 60%;
+    border: 2px black solid;
+    margin-left: .6vh;
+}
+.Stay form input[type=date]:required:invalid::-webkit-datetime-edit{
+    font-size: 0px;
+}
+
+input[type="date"]:not(.has-value):before {
+    color: black;
+    content: attr(placeholder);
+}
+.Button-middle{
+    padding: 1.5vh 4vh;
+    background-color: rgb(230, 154, 15);
+    font-size: small;
+    margin-left: 2vh;
+    color:white;
+    transition: background-color .5s, color .5s;
+    cursor: pointer;
+    border: 1px  rgb(230, 154, 15) solid ;
+}
+.Button-middle:hover{
+    background-color: white;
+    color: rgb(230, 154, 15);
+} 
+.Ham{
+    border: 0px;
+    margin-left: 65%;
+    background-color: transparent;
+    color: orange;
+    display: none;
+}
+
+@media (max-width:680px) {
+    .menu{
+        display: none;
+        
+    }
+    .upperNav{
+        height: min-content;
+    }
+    .upperNav h3 a{
+        padding: 1vh;
+    }
+    
+}
+
+@media (max-width:1200px) {
+    .Stay{
+        width: 100%;
+    }
+    .Stay form input{
+        width: 30%;
+    } 
+}
+@media (max-width:680px) {
+    .Ham{
+        display: block;
+        margin-right: 8%;
+    }
+
+    .Stay h1{
+        font-size: 5vh;
+    }
+    .Stay form input{
+        font-size: medium;
+        font-weight: 600;
+        height: 4vh;
+        font-size: 1.7vh;
+    }
+    .Button-middle{
+        font-size: x-small;
+        padding: 1vh 4vh;
+    }
+    
+}
+@media (max-width:350px) {
+    .Stay h1{
+        font-size: 3vh;
+    }
+    .Stay form input{
+        height: 4vh;
+        font-size: 1.3vh;
+        
+    }
+    .Stay button{
+        font-size: 1.4vh;
+        height: 4.3vh;
+        padding: 1vh;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

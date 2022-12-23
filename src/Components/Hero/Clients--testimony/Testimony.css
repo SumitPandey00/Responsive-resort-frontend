@@ -1,0 +1,71 @@
+.Client{
+    margin-bottom: 2%;
+}
+.Client h1{
+text-align: center;
+margin-bottom: 1%;
+}
+.Client span{
+    color: red;
+    margin-bottom: 2%;
+}
+.Clinnt--all{
+    display: flex;
+}
+.Clinnt--img{
+    width: 170px;
+    height: 200px;
+}
+.client--bottom{
+    margin-left: 7%;
+}
+.Clinnt--all p{
+    font-style: italic;
+    font-size: 20px;
+    margin-bottom: 2%;
+    line-height: 35px;
+}
+
+.Quotation--open{
+    width: 60px;
+}
+.Quotation--close{
+    width: 60px;
+}
+
+.Clinnt--all h4 span{
+    margin-left: 1%;
+}
+.Clinnt--all h4 span a{
+    text-decoration: none;
+    color: black;
+}
+@media (max-width:800px) {
+    .Client h1{
+        display:  none;
+    }
+    .Clinnt--all{
+        display:  none;
+    }
+
+    /* .Clinnt--img{
+        width: 20%;
+        height: 10%;
+        position: absolute;
+        
+    }
+    .Client h1{
+        font-size: 3vh;
+    }
+    .Clinnt--all p{
+        font-size: 1.8vh;
+    line-height: normal;
+    text-align: justify;        
+    }
+    .Clinnt--all h4{
+        font-size: 2vh;
+    } */
+
+    
+}
+/* move to next with dregg*/
